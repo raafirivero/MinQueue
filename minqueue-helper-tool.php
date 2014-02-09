@@ -240,7 +240,7 @@ function minqueue_helper_script() {
 				if ( ! self.display )
 					return;
 				
-				self.display.style.display = 'none';
+				self.display.style.display = 'block';
 				self.insertButton();
 				self.button.addEventListener( 'click', function(e) { 
 					self.toggleDisplay.call( self, e, this ) 
